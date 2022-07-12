@@ -3,9 +3,42 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
+    background-color:  rgb(25, 33, 41);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    border: 1px solid rgb(67, 163, 230);
 }
+
+button {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+div:nth-child(1) {
+    margin: 20px 0px 2px 20px;
+}
+
+div:nth-child(2){
+    margin: auto 0px auto 20px;
+}
+div:nth-child(3){
+    margin: auto 0px auto 20px;
+}
+
+div:nth-child(4){
+    margin: auto 0px auto 20px;
+}
+
+div:nth-child(5){
+    margin: auto 0px 20px 20px;
+}
+
